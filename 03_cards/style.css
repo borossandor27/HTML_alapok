@@ -1,0 +1,21 @@
+body {
+    counter-reset: card-number;
+}
+
+.card-title::before {
+    counter-increment: card-number;
+    content: counter(card-number) ". ";
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

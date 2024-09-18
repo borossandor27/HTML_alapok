@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="./formdata.css">
+    <script src="./formdata.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <form action="#" method="get" id="regisztracio" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Regisztráció</legend>
+                <p class="beviteli">
+                    <label for="nev">Név:</label>
+                    <input type="text" name="nev" id="nev" required>
+                </p>
+                <p class="beviteli">
+                    <label for="reg_email">E-mail cím:</label>
+                    <input type="email" name="reg_email" id="reg_email" required>
+                </p>
+                <p class="beviteli">
+                    <label for="password1">Jelszó:</label>
+                    <input type="password" name="password1" id="password1" required>
+                </p>
+                <p class="beviteli">
+                    <label for="password2">Jelszó újra:</label>
+                    <input type="password" name="password2" id="password2" required>
+                </p>
+                <p class="beviteli">
+                    <label for="szuletesi_datum">Születési dátum:</label>
+                    <input type="date" name="szuletesi_datum" id="szuletesi_datum" required>
+                </p>
+                <p class="beviteli">
+                    <label for="nem">Nem:</label>
+                    <input type="radio" name="nem" value="ferfi" required>Férfi
+                    <input type="radio" name="nem" value="no" required>Nő
+                    <input type="radio" name="nem" value="egyeb" required>Egyéb
+                </p>
+                <p class="beviteli">
+                    <!-- egy számlaszám 16 vagy 24 számból áll, és nyolcasával szokás őt elválasztani. -->
+                    <label for="szamlaszam">Számlaszám:</label>
+                    <input type="text" name="szamlaszam" id="szamlaszam" pattern="^\d{8}([\- ]?\d{8}){1,2}$" required>
+
+                </p>
+                <p class="beviteli">
+                    <label for="szemszin">Szeme színe:</label>
+                    <select name="szemszin" id="szemszin" required>
+                        <option value="kek">Kék</option>
+                        <option value="zold">Zöld</option>
+                        <option value="barna">Barna</option>
+                        <option value="egyeb">Egyéb</option>
+                    </select>
+                </p>
+                <p class="beviteli">
+                    <label for="profile_picture">Profilkép:</label>
+                    <input type="file" name="profile_picture" id="profile_picture" accept="image/*">
+                </p>
+                <p>
+                    <input type="checkbox" name="nagyon_magas" id="nagyon_magas">
+                    <label for="egyedi">200 cm feletti</label>
+                    <input type="checkbox" name="sulyos" id="sulyos">
+                    <label for="egyedi">120 kg feletti</label>
+
+                </p>
+                <p class="beviteli">
+                    <label for="description">Bemutatkozás:</label>
+                    <textarea name="description" id="description"></textarea>
+                </p>
+                <button type="button" id="register">Regisztráció</button>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="#" method="get" id="bejelentkezes">
+            <legend>Belépés</legend>
+            <fieldset>
+                <p class="beviteli">
+                    <label for="email">E-mail cím:</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p class="beviteli">
+                    <label for="password">Jelszó:</label>
+                    <input type="password" name="password" id="password" required>
+                </p>
+                <button type="submit" id="login">Bejelentkezés</button>
+            </fieldset>
+        </form>
+    </div>
+    <output id="output"></output>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+Négy statikus weblapot kell készítened:
+Főoldal
+Rólunk
+Kapcsolat
+Adatvedelmi Irányelvek

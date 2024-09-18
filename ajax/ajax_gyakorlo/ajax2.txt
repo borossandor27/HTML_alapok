@@ -1,0 +1,3 @@
+A https://retool.com/api-generator segítségével készíts egy legalább 4 oszlopot tartalmazó táblát!
+Készíts hozzá a teljeskörű karbantartásra alkalmas webes alkalmazást!
+Beadandó a megolgás repó linkje.

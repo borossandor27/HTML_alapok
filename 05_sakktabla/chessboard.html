@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakktábla</title>
+    <link rel="stylesheet" href="./chessboard.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest"></head>
+<body>
+    <div class="chessboard">
+        <!-- Felső betűsor -->
+        <div></div> <!-- Üres sarok -->
+        <div class="col-label">a</div>
+        <div class="col-label">b</div>
+        <div class="col-label">c</div>
+        <div class="col-label">d</div>
+        <div class="col-label">e</div>
+        <div class="col-label">f</div>
+        <div class="col-label">g</div>
+        <div class="col-label">h</div>
+        <div></div>
+        <!-- Üres sarok -->
+    
+        <!-- Sorok betöltése -->
+        <!-- Sor 8 -->
+        <div class="row-label">8</div>
+        <div class="cell feher" data-coord="a8"><img src="./babuk/Chess_feher_bastya.svg" alt="fehér bástya"></div>
+        <div class="cell fekete" data-coord="b8"><img src="./babuk/Chess_feher_csiko.svg" alt="fehér csikó"></div>
+        <div class="cell feher" data-coord="c8"><img src="./babuk/Chess_feher_futo.svg" alt="fehér futó"></div>
+        <div class="cell fekete" data-coord="d8"><img src="./babuk/Chess_feher_kiralyno.svg" alt="fehér királynő"></div>
+        <div class="cell feher" data-coord="e8"><img src="./babuk/Chess_feher_kiraly.svg" alt="fehér király"></div>
+        <div class="cell fekete" data-coord="f8"><img src="./babuk/Chess_feher_futo.svg" alt="fehér futó"></div>
+        <div class="cell feher" data-coord="g8"><img src="./babuk/Chess_feher_csiko.svg" alt="fehér csikó"></div>
+        <div class="cell fekete" data-coord="h8"><img src="./babuk/Chess_feher_bastya.svg" alt="fehér bástya"></div>
+        <div class="row-label">8</div>
+
+        <!-- Sor 7 -->
+        <div class="row-label">7</div>
+        <div class="cell fekete" data-coord="a7"><img src="./babuk/Chess_feher_paraszt.svg" alt="fehér paraszt"></div>
+        <div class="cell feher" data-coord="b7"><img src="./babuk/Chess_feher_paraszt.svg" alt="fehér paraszt"></div>
+        <div class="cell fekete" data-coord="c7"><img src="./babuk/Chess_feher_paraszt.svg" alt="fehér paraszt"></div>
+        <div class="cell feher" data-coord="d7"><img src="./babuk/Chess_feher_paraszt.svg" alt="fehér paraszt"></div>
+        <div class="cell fekete" data-coord="e7"><img src="./babuk/Chess_feher_paraszt.svg" alt="fehér paraszt"></div>
+        <div class="cell feher" data-coord="f7"><img src="./babuk/Chess_feher_paraszt.svg" alt="fehér paraszt"></div>
+        <div class="cell fekete" data-coord="g7"><img src="./babuk/Chess_feher_paraszt.svg" alt="fehér paraszt"></div>
+        <div class="cell feher" data-coord="h7"><img src="./babuk/Chess_feher_paraszt.svg" alt="fehér paraszt"></div>
+        <div class="row-label">7</div>
+
+        <!-- Folytasd a további sorokkal 6-tól 1-ig -->
+        <!-- Sor 6 -->
+        <div class="row-label">6</div>
+        <div class="cell feher" data-coord="a6"></div>
+        <div class="cell fekete" data-coord="b6"></div>
+        <div class="cell feher" data-coord="c6"></div>
+        <div class="cell fekete" data-coord="d6"></div>
+        <div class="cell feher" data-coord="e6"></div>
+        <div class="cell fekete" data-coord="f6"></div>
+        <div class="cell feher" data-coord="g6"></div>
+        <div class="cell fekete" data-coord="h6"></div>
+        <div class="row-label">6</div>
+
+        <!-- Sor 5 -->
+        <div class="row-label">5</div>
+        <div class="cell fekete" data-coord="a5"></div>
+        <div class="cell feher" data-coord="b5"></div>
+        <div class="cell fekete" data-coord="c5"></div>
+        <div class="cell feher" data-coord="d5"></div>
+        <div class="cell fekete" data-coord="e5"></div>
+        <div class="cell feher" data-coord="f5"></div>
+        <div class="cell fekete" data-coord="g5"></div>
+        <div class="cell feher" data-coord="h5"></div>
+        <div class="row-label">5</div>
+
+        <!-- Sor 4 -->
+        <div class="row-label">4</div>
+        <div class="cell feher" data-coord="a4"></div>
+        <div class="cell fekete" data-coord="b4"></div>
+        <div class="cell feher" data-coord="c4"></div>
+        <div class="cell fekete" data-coord="d4"></div>
+        <div class="cell feher" data-coord="e4"></div>
+        <div class="cell fekete" data-coord="f4"></div>
+        <div class="cell feher" data-coord="g4"></div>
+        <div class="cell fekete" data-coord="h4"></div>
+        <div class="row-label">4</div>
+
+        <!-- Sor 3 -->
+        <div class="row-label">3</div>
+        <div class="cell fekete" data-coord="a3"></div>
+        <div class="cell feher" data-coord="b3"></div>
+        <div class="cell fekete" data-coord="c3"></div>
+        <div class="cell feher" data-coord="d3"></div>
+        <div class="cell fekete" data-coord="e3"></div>
+        <div class="cell feher" data-coord="f3"></div>
+        <div class="cell fekete" data-coord="g3"></div>
+        <div class="cell feher" data-coord="h3"></div>
+        <div class="row-label">3</div>
+
+        <!-- Sor 2 -->
+        <div class="row-label">2</div>
+        <div class="cell feher" data-coord="a2"><img src="./babuk/Chess_fekete_paraszt.svg" alt="fekete paraszt"></div>
+        <div class="cell fekete" data-coord="b2"><img src="./babuk/Chess_fekete_paraszt.svg" alt="fekete paraszt"></div>
+        <div class="cell feher" data-coord="c2"><img src="./babuk/Chess_fekete_paraszt.svg" alt="fekete paraszt"></div>
+        <div class="cell fekete" data-coord="d2"><img src="./babuk/Chess_fekete_paraszt.svg" alt="fekete paraszt"></div>
+        <div class="cell feher" data-coord="e2"><img src="./babuk/Chess_fekete_paraszt.svg" alt="fekete paraszt"></div>
+        <div class="cell fekete" data-coord="f2"><img src="./babuk/Chess_fekete_paraszt.svg" alt="fekete paraszt"></div>
+        <div class="cell feher" data-coord="g2"><img src="./babuk/Chess_fekete_paraszt.svg" alt="fekete paraszt"></div>
+        <div class="cell fekete" data-coord="h2"><img src="./babuk/Chess_fekete_paraszt.svg" alt="fekete paraszt"></div>
+        <div class="row-label">2</div>
+
+        <!-- Sor 1 -->
+        <div class="row-label">1</div>
+        <div class="cell fekete" data-coord="a1"><img src="./babuk/Chess_fekete_bastya.svg" alt="fekete bástya"></div>
+        <div class="cell feher" data-coord="b1"><img src="./babuk/Chess_fekete_csiko.svg" alt="fekete csikó"></div>
+        <div class="cell fekete" data-coord="c1"><img src="./babuk/Chess_fekete_futo.svg" alt="fekete futó"></div>
+        <div class="cell feher" data-coord="d1"><img src="./babuk/Chess_fekete_kiralyno.svg" alt="fekete királynő"></div>
+        <div class="cell fekete" data-coord="e1"><img src="./babuk/Chess_fekete_kiraly.svg" alt="fekete király"></div>
+        <div class="cell feher" data-coord="f1"><img src="./babuk/Chess_fekete_futo.svg" alt="fekete futó"></div>
+        <div class="cell fekete" data-coord="g1"><img src="./babuk/Chess_fekete_csiko.svg" alt="fekete csikó"></div>
+        <div class="cell feher" data-coord="h1"><img src="./babuk/Chess_fekete_bastya.svg" alt="fekete bástya"></div>
+        <div class="row-label">1</div>
+
+        <!-- Alsó betűsor -->
+        <div class="col-label"></div> <!-- Üres sarok -->
+        <div class="col-label">a</div>
+        <div class="col-label">b</div>
+        <div class="col-label">c</div>
+        <div class="col-label">d</div>
+        <div class="col-label">e</div>
+        <div class="col-label">f</div>
+        <div class="col-label">g</div>
+        <div class="col-label">h</div>
+        <div class="col-label"></div> <!-- Üres sarok -->
+    </div>
+</body>
+</html>

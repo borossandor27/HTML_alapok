@@ -1,0 +1,74 @@
+:root {
+    --base-background-color: #fffdfa;
+    --base-font-color: black;
+    --table-header-base-background-color: #ffdea9;
+    --table-header-font-color: #996600;
+    --table-border-color: #ddd;
+    --highlighted-base-background-color: #fff2dd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--base-background-color);
+    color: var(--base-font-color);
+    counter-reset: letszam;
+    /* A letszam nevű számláló nullázása */
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 60%;
+}
+
+tbody tr:hover {
+    background-color: var(--highlighted-base-background-color);
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid var(--table-border-color);
+}
+
+th {
+    background-color: var(--table-header-base-background-color);
+    color: var(--table-header-font-color);
+    text-align: center; /* Az alapértelmezett igazítás a fejlécben */
+    font-style: italic;
+}
+
+tbody td:nth-child(1) {
+    text-align: right;
+    /* A sorszám oszlop jobbra igazítása */
+    width: 10%;
+}
+
+tbody td:nth-child(1)::before {
+    counter-increment: letszam;
+    /* A letszam nevű számláló növelése */
+    content: counter(letszam) ". ";
+    /* A sorszám megjelenítése */
+}
+
+tbody td:nth-child(2) {
+    text-align: left;
+    /* A név oszlop balra igazítása */
+}
+
+tbody td:nth-child(3) {
+    text-align: center;
+    /* Az életkor oszlop középre igazítása */
+}
+
+table tfoot tr td {
+    color: navy;
+    text-align: center;
+    font-style: italic;
+}
+
+table tfoot tr td::before {
+    content: "Összesen: " counter(letszam) " fő";
+}

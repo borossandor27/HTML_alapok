@@ -1,0 +1,35 @@
+# DineEase Showcase Webhely
+
+**EuroSkills Herning 2025 Magyar Országos Verseny, Webfejlesztés - 1. forduló**
+
+Beküldő: [Skills IT](https://skillsit.hu)
+
+![DineEase](assets/images/DineEase.png)
+
+## Bevezetés:
+
+A **DineEase**, egy magyarországi székhelyű kis startup innovatív éttermi szoftverével kezdetben az éttermi iparban vert hullámokat. Most egy vadonatúj szolgáltatással bővítik látókörüket, amelynek célja, hogy forradalmasítsa az emberek felfedezését, felfedezését és az éttermekbe való kapcsolódást. A DineEase all-in-one portálon a látogatók válogathatnak az éttermek között, megtekinthetik bármelyik étterem teljes étlapját, elolvashatják a korábbi vendégek véleményét az éttermi kiszolgálásról és az ételekről. Ezenkívül asztalt foglalhatnak az általuk választott étteremben, és a weboldalon vagy az alkalmazáson keresztül rendelhetnek és fizethetnek.
+
+Korábban szabadúszó webfejlesztőként dolgoztál, de most jelentkeztél egy fejlesztői állásra a DineEase-nél. A cég vezetése szeretné próbára tenni tudását, ezért a toborzási folyamat részeként felkérték, hogy fejlessze ki új szolgáltatásuk prototípusát.
+
+Ebben a körben egy magával ragadó és látványos weboldalt hoz létre a DineEase étkezőplatformhoz. A weboldal elsődleges célja, hogy új felhasználókat vonzzon, és bemutassa a DineEase szolgáltatás egyedi funkcióit és kínálatát. Bemutatja HTML-, CSS- és JavaScript-készségeit, hogy lenyűgöző webhelyet készítsen, amely megfelel az akadálymentesítési szabványoknak, és megvalósítja a SEO bevált gyakorlatait. Különös figyelmet kell fordítania a felhasználói élményre (UX) az intuitív navigáció, az egyértelmű cselekvésre ösztönző gombok és a zökkenőmentes interakció biztosításával a webhelyen.
+
+**A DineEase a fejlesztést 3 fázisban várja. Ahhoz, hogy beadványát értékelni lehessen, legalább az első szakaszt el kell végeznie. Tovább növelheti a következő körbe jutás esélyeit, ha a második szakasz követelményeit részben vagy egészben teljesíti. Csak akkor kezdje el a harmadik (nem kötelező) fázist, ha az első két fázist teljesen befejezte.**
+
+### A DineEase víziójának megértése és megvalósítása:
+Alaposan át kell tekintenie a DineEase bemutató webhelyhez megadott webhelyszerkezetet, valamint a menedzsment által meghatározott részletes oldalakat és részeket. Gondoskodnia kell arról, hogy az összes aloldal kialakítása vizuálisan igazodjon, összefüggő és harmonikus felhasználói élményt teremtve. Az elrendezés, a tipográfia és a színsémák következetessége kulcsfontosságú a DineEase márkaidentitás megerősítésében. Egy olyan vonzó felhasználói felület létrehozásához, amely a DineEase platform felfedezésére ösztönzi a látogatókat, egy grafikus már elkészített egy weboldalt. Amennyire csak lehetséges, kövesse a mellékelt tervfájlt. A tervfájlok, képek és szöveges tartalmak az "eszközök" mappában találhatók.
+
+### 1. A DineEase Showcase webhely szerkezete és oldalak meghatározása
+
+A DineEase egy lenyűgöző bemutató webhelyet képzel el, amely kiemeli platformjuk lényegét, és arra ösztönzi a felhasználókat, hogy fedezzék fel az étkezési lehetőségek izgalmas világát. A webhely szerkezetét, a részletes oldalakat és a szakaszok definícióit az alábbiakban ismertetjük. Az egyes oldalak szöveges tartalma az `assets/content` mappában található.
+
+#### Kezdőlap (1. fázis / 2. fázis):
+A kezdőlapnak a következő részekből kell állnia:
+* Üdvözlő és vizuálisan lebilincselő hősszekció csábító cselekvésre ösztönzéssel az éttermek felfedezésére. (1. fázis)
+* Kiemelt rész, amely a legjobb értékelésű éttermeket mutatja be képekkel, rövid leírásokkal és értékelésekkel. Ehhez le kell töltenie a következő API-végpontban biztosított legjobb értékelésű éttermeket: `https://es2025-s17-hu-r1-backend.onrender.com/api/v1/restaurants/top-rated`. Gondosan tekintse át a visszaküldött JSON-t, és jelenítse meg a tartalmat a weboldalon. Ha nem tudja lekérni az éttermeket, használhatja az [`assets/data/top-rated-restauransts.json`](assets/data/top-rated-restauransts.json) fájlt, amely ugyanazokat az adatokat tartalmazza.
+**Megjegyzés:** Az adatok első lekérésekor némi késést tapasztalhat, mivel háttérrendszerünk erőforrásai korlátozottak.
+* Elégedett vendégek beszámolói, akik a DineEase-en keresztül osztják meg elragadó étkezési élményeiket. (1. fázis)
+* Interaktív keresősáv
+     * Lehetővé teszi a felhasználók számára, hogy éttermeket fedezzenek fel konyha, hely vagy konkrét preferenciák alapján. Csak a tervezést kell megvalósítania, a keresősávnak nem kell működőképesnek lennie. (1. fázis)
+     * A felhasználónak képesnek kell lennie az egyszerű és a speciális keresési módok közötti váltásra (lásd: "design/Restaurant Search Flow.png") **Csak HTML és CSS használható ehhez a feladathoz, JavaScript nem engedélyezett!** (2. fázis) )
+* Az interaktív keresősáv alatt az étterem látható. Az éttermi adatok eléréséhez a következő API-végpontot használhatja: `https://es2025-s17-hu-r1-backend.onrender.com/api/v1/restaurants`. Az éttermeket véletlenszerű sorrendben kell megjelenítenie. Kezdetben csak az első 3 étterem jelenik meg a „Show more” gombbal együtt. Erre a gombra kattintva megjelenik a többi étterem. Ha nem tudja lekérni az éttermeket, használhatja az [`assets/data/re

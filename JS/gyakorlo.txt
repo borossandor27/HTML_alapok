@@ -1,0 +1,23 @@
+ES6 gyakorló feladatok
+
+Utasítások
+Készíts egy gombot, amely egy kattintásra kiír egy üzenetet a konzolra.
+Hozz létre egy űrlapot egy szöveges beviteli mezővel és egy gombbal. Amikor a gombra kattintanak, olvasd ki a beírt szöveget és írd ki a konzolra.
+Készíts egy eseményfigyelőt, amely lefut, amikor az egér belép egy elem fölé, és változtatja meg az elem hátterét.
+Készíts egy egyszerű időzítőt, amely másodpercenként frissíti a konzolt egy aktuális időponttal.
+Készíts egy listát elemekkel. Amikor az elemre kattintanak, változtasd meg az elem színét.
+Készíts egy egyszerű modált ablakot. Amikor egy gombra kattintanak, jelenjen meg a modális ablak.
+Készíts egy üzenetablakot, amely megkérdezi a felhasználót egy megerősítő üzenettel, amikor egy gombra kattintanak.
+Hozz létre egy számlálót, amely növekszik, amikor egy gombra kattintanak.
+Készíts egy űrlapot, amely validálja a beírt adatokat a szöveges beviteli mezőből, amikor a gombra kattintanak.
+Készíts egy egyszerű "drag and drop" funkciót egy elemmel.
+Hozz létre egy gombot, amely elrejti vagy megjeleníti egy másik elemet a kattintások között váltakozva.
+Készíts egy egyszerű keresőmezőt, amely élő keresést végez a beírt szöveg alapján.
+Készíts egy képet, amelynek az átméretezése változik az egér mozgatásával.
+Készíts egy űrlapot, amely figyeli az input mező változását, és azonnal validálja a beírt adatokat.
+Hozz létre egy űrlapot, amely tiltja az alapértelmezett eseményeket (submit) egy gombra kattintásnál.
+Készíts egy egyszerű "hover" effektet egy elemre.
+Készíts egy időzített pop-up ablakot, amely néhány másodperc után megjelenik egy oldalon.
+Hozz létre egy egyszerű játékot, amely reagál az egérmozgásra és kattintásra.
+Készíts egy űrlapot, amely elmenti az adatokat a beviteli mezőkből egy gombra kattintással.
+Készíts egy színes palettát, amely lehetővé teszi a felhasználó számára egy szín kiválasztását egy gombra kattintva.

@@ -1,0 +1,101 @@
+:root {
+    --primary-color: #FFD700;
+    /* Fő szín */
+    --secondary-color: #FFE4B5;
+    /* Másodlagos szín */
+    --text-color: navy;
+    /* Szöveg színe */
+    --border-color: navy;
+    /* Szegély színe */
+    --background-color: #FFE4B5;
+    /* Háttérszín */
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    font-size: 1.5vw;
+    line-height: 1.5rem;
+}
+
+h1.cim {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 0.5em;
+    background-color: #FFD700;
+    color: var(--text-color);
+}
+
+div#content {
+    margin: 0 auto;
+    padding: 1em;
+    width: 80%;
+    text-align: justify;
+}
+
+div#content img {
+    display: block;
+    margin: 0 1em;
+}
+
+section {
+    margin: 1em 0;
+    padding: 1em;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+.word {
+    color: var(--text-color);
+    /* Eredeti betűszín */
+    transition: color 0.3s ease;
+    /* Simítás az animációhoz */
+}
+
+/* Hover hatás a szóra */
+.word:hover {
+    color: red;
+    /* Szín, amikor az egér fölötte van */
+}
+
+#neandervolgyi {
+    width: 80%;
+    margin: 0 auto;
+    /* Use a flexbox layout */
+    display: flex;
+
+    /* Make a horizontal flexbox (the default) */
+    flex-direction: row;
+
+    /* The important part: vertically center the items */
+    align-items: center;
+}
+
+#visszaNyil {
+    position: fixed; /* Rögzített pozíció a képernyőn */
+    bottom: 10px;    /* A képernyő aljától 10px távolságra */
+    left: 10px;      /* A képernyő bal oldalától 10px távolságra */
+    cursor: pointer; /* Az egér mutatója mutatókéz lesz, jelezve, hogy kattintható */
+    width: 50px;
+    height: 50px;
+    margin: 0 1em;
+}
+
+#visszaNyil img {
+    width: 50px; /* Az igényeknek megfelelően állítsd be a szélességet */
+    height: auto; /* Az automatikus magasság fenntartja az arányokat */
+}
