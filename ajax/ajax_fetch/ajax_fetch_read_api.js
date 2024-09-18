@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var url = new URL("https://api.zipcodestack.com/v1/search?");
   const headers = new Headers({
     "Content-Type": "application/json",
-    Accept: "application/json",
+    "Accept": "application/json",
   });
 
   document.getElementById("fetch").addEventListener("click", async function () {
