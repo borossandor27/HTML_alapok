@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolgozok CRUD</title>
+    <link rel="stylesheet" href="ajax_fetch_crud.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./ajax_fetch_crud.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Dolgozók CRUD</h1>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 m-auto">
+                <p><button type="button" class="btn btn-warning" title="új dolgozó hozzáadása az adatbázishoz"><i class="fa-regular fa-square-plus"></i> </button></p>
+                <table class="table table-striped"  id="dolgozok">
+                    <caption>Dolgozók listája</caption>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Név</th>
+                            <th>Születési dátum</th>
+                            <th>Részleg</th>
+                            <th>Fizetés</th>
+                            <th>Műveletek</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>1980-01-01</td>
+                            <td>Termelés</td>
+                            <td>200000</td>
+                            <td>
+                                <button class="btn btn-outline-primary" onclick="editDolgozo(1)"
+                                    title="Dolgozó tárolt adatainak a módosítása."><i class="fas fa-edit"></i></button>
+                                <button class="btn btn-outline-danger" onclick="deleteDolgozo(1)"
+                                    title="Dolgozó törlése az adatbázisból!"><i class="fas fa-trash"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6  offset-3">
+                <form id="dolgozo_form" class="g-3">
+                    <fieldset>
+                        <legend>Új dolgozó adatai</legend>
+                        <div class="row">
+                            <div class="col-auto">
+                                <input type="number" class="form-control col-auto" name="id" id="id"
+                                    readonly="readonly">
+                            </div>
+                            <div class="col-auto">
+                                <label for="nev" class="col-form-label">Név</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="nev" name="nev">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-form-label">
+                                <label for="szul_datum">Születési dátum</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="date" class="form-control" id="szul_datum" name="szul_datum">
+                            </div>
+                            <div class="col-form-label">
+                                <label for="reszleg">Részleg</label>
+                            </div>
+                            <div class="col-auto">
+                                <select name="reszleg" id="reszleg" class="form-select">
+                                    <option value="termelés" selected>Termelés</option>
+                                    <option value="vezetés">Vezetés</option>
+                                    <option value="pénzügy">Pénzügy</option>
+                                    <option value="beszerzés">Beszerzés</option>
+                                    <option value="marketing">Marketing</option>
+                                </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+</body>
+
+</html>
