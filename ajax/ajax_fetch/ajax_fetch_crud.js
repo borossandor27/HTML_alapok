@@ -39,9 +39,9 @@ async function adatokLekereseVegpontrol() {
   }
 }
 
-function frissAdatokTablazatba(data) {
+function frissAdatokTablazatba(dataList) {
   htmlData = `
-    <table class="table table-striped">
+    <table class="table table-striped caption-top">
         <caption>Dolgozók listája</caption>
         <thead>
             <tr>
@@ -54,25 +54,26 @@ function frissAdatokTablazatba(data) {
             </tr>
         </thead>
         <tbody id="dolgozok">`;
-  for (let key in data) {
-    if (data.hasOwnProperty(key)) {
-      let element = data[key];
+  for (let index in dataList) {
+    //console.log(key, dataList.hasOwnProperty(key));
+    if (dataList.hasOwnProperty(index)) {
+      let element = dataList[index];
       htmlData += `
             <tr>
                 <td>${element.id}</td>
                 <td>${element.nev}</td>
                 <td>${dateFormatter(new Date(element.szuletett))}</td>
                 <td>${element.reszleg}</td>
-                <td>${element.bér}</td>
+                <td>${new Intl.NumberFormat("hu-HU").format(element.bér)}</td>
                 <td>
                     <button class="btn btn-outline-primary" onclick="editDolgozo(${
                       element.id
-                    })"
-                        title="Dolgozó tárolt adatainak a módosítása."><i class="fas fa-edit"></i></button>
+                    })" 
+                      title="Dolgozó tárolt adatainak a módosítása."><i class="fas fa-edit"></i></button>
                     <button class="btn btn-outline-danger" onclick="deleteDolgozo(${
                       element.id
                     })"
-                        title="Dolgozó törlése az adatbázisból!"><i class="fas fa-trash"></i></button>
+                      title="Dolgozó törlése az adatbázisból!"><i class="fas fa-trash"></i></button>
                 </td>
             </tr>`;
     }
@@ -82,6 +83,115 @@ function frissAdatokTablazatba(data) {
     </table>`;
   document.getElementById("dolgozok").innerHTML = htmlData;
 }
+function editDolgozo(id) {
+  console.log("Edit:", id);
+  document.getElementById("listazasDiv").style.display = "none";
+  document.getElementById("urlapDiv").style.display = "block";
+  adatokUrlapba(id);
+  modositasokKuldese(id);
+ // document.getElementById("listazasDiv").style.display = "block";
+  //document.getElementById("urlapDiv").style.display = "none";
+}
+
+function deleteDolgozo(id) {
+  console.log("Delete:", id);
+  document.getElementById("listazasDiv").style.display = "none";
+  document.getElementById("urlapDiv").style.display = "block";
+  adatokUrlapba(id);
+  torlesKuldese(id);
+  //document.getElementById("listazasDiv").style.display = "none";
+  //document.getElementById("urlapDiv").style.display = "block";
+}
+async function adatokUrlapba(id) {
+  try {
+    let response = await fetch(`${url}/${id}`);
+
+    if (!response.ok) {
+      throw new Error(`Hiba történt a lekérés során: ${response.status}`);
+    }
+
+    let data = await response.json();
+
+    // Csak akkor hívjuk meg, ha minden sikeres volt
+    urlapMezokKitoltese(data);
+  } catch (error) {
+    console.error("Hiba történt:", error);
+    // hibaüzenetet a felhasználónak is
+    alert("Hiba történt az adatok lekérdezése során!");
+  }
+}
+async function modositasokKuldese(id) {
+  const form = document.getElementById("dolgozo_form");
+  
+    const formData = new FormData(form); // az űrlap adatainak lekérése
+    const data = Object.fromEntries(formData); // FormData objektum átalakítása sima objektummá
+    console.log("Módosítások küldése:", data);
+
+    try {
+      let response = await fetch(`${url}/${id}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Hiba történt a módosítás során: ${response.status}`);
+      }
+
+      let responseData = await response.json();
+      console.log("Módosítások eredménye:", responseData);
+      tablazatFrissitese();
+    } catch (error) {
+      console.error("Hiba történt:", error);
+      // hibaüzenetet a felhasználónak is
+      alert("Hiba történt az adatok módosítása során!");
+    }
+}
+async function torlesKuldese(id) {
+  const form = document.getElementById("urlap");
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData);
+    console.log("Törlés küldése:", data);
+
+    try {
+      let response = await fetch(`${url}/${id}`, {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Hiba történt a törlés során: ${response.status}`);
+      }
+
+      let responseData = await response.json();
+      console.log("Törlés eredménye:", responseData);
+      tablazatFrissitese();
+    } catch (error) {
+      console.error("Hiba történt:", error);
+      // hibaüzenetet a felhasználónak is
+      alert("Hiba történt az adatok törlése során!");
+    }
+  });
+}
+
+function urlapMezokKitoltese(data) {
+  console.log("Kitöltés:", data);
+  document.getElementById("id").value = data.id;
+  document.getElementById("nev").value = data.nev;
+  document.getElementById("bér").value = data.bér;
+  document.getElementById("szul_datum").value = dateFormatter(
+    new Date(data.szuletett)
+  );
+  document.getElementById("reszleg").value = data.reszleg;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   birtdayDefaultValue();
   tablazatFrissitese();
