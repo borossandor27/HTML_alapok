@@ -1,0 +1,638 @@
+[
+ {
+   "zenekarNev": "AC/DC",
+   "muveszNev": "Angus Young",
+   "nemzetiseg": "skót-ausztrál",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "AC/DC",
+   "muveszNev": "Malcolm Young",
+   "nemzetiseg": "skót-ausztrál",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Aerosmith",
+   "muveszNev": "Joe Perry",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Arc Angels",
+   "muveszNev": "Doyle Bramhall II",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "blues"
+ },
+ {
+   "zenekarNev": "Art of Haven",
+   "muveszNev": "Fazekas Ákos",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Balassa",
+   "muveszNev": "Szörényi Levente",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Black Label Society",
+   "muveszNev": "Zakk Wylde",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Black Sabbath",
+   "muveszNev": "Tony Iommi",
+   "nemzetiseg": "olasz-angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Blackmore’s Night",
+   "muveszNev": "Ritchie Blackmore",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Blind Faith",
+   "muveszNev": "Eric Clapton",
+   "nemzetiseg": "brit",
+   "stilusNev": "blues"
+ },
+ {
+   "zenekarNev": "Bon Jovi",
+   "muveszNev": "Richie Sambora",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Children of Bodom",
+   "muveszNev": "Alexi Laiho",
+   "nemzetiseg": "finn",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Cream",
+   "muveszNev": "Eric Clapton",
+   "nemzetiseg": "brit",
+   "stilusNev": "blues"
+ },
+ {
+   "zenekarNev": "Deep Purple",
+   "muveszNev": "Ritchie Blackmore",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Deep Purple",
+   "muveszNev": "Steve Morse",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Derek and the Dominos",
+   "muveszNev": "Eric Clapton",
+   "nemzetiseg": "brit",
+   "stilusNev": "blues"
+ },
+ {
+   "zenekarNev": "Dire Straits",
+   "muveszNev": "Mark Knopfler",
+   "nemzetiseg": "brit",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Dream Theater",
+   "muveszNev": "John Petrucci",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Faces",
+   "muveszNev": "Ronnie Wood",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Fleetwood Mac",
+   "muveszNev": "Peter Green",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Fonográf",
+   "muveszNev": "Móricz Mihály",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Fonográf",
+   "muveszNev": "Tolcsvay László",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Fonográf",
+   "muveszNev": "Bródy János",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Fonográf",
+   "muveszNev": "Szörényi Levente",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Foo Fighters",
+   "muveszNev": "Dave Grohl",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Foo Fighters",
+   "muveszNev": "Chris Shiflett",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Franz Ferdinand",
+   "muveszNev": "Nick McCarthy",
+   "nemzetiseg": null,
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Good Charlotte",
+   "muveszNev": "Benji Madden",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Guns N’ Roses",
+   "muveszNev": "Robin Finck",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Guns N’ Roses",
+   "muveszNev": "Slash",
+   "nemzetiseg": "brit-amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Hobo Blues Band",
+   "muveszNev": "Fehér Géza",
+   "nemzetiseg": "magyar",
+   "stilusNev": "blues"
+ },
+ {
+   "zenekarNev": "Hot Tuna",
+   "muveszNev": "Jorma Kaukonen",
+   "nemzetiseg": null,
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Humble Pie",
+   "muveszNev": "Peter Frampton",
+   "nemzetiseg": "angol-amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Humble Pie",
+   "muveszNev": "Steve Marriott",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Illés",
+   "muveszNev": "Bródy János",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Illés",
+   "muveszNev": "Szörényi Levente",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Iron Maiden",
+   "muveszNev": "Adrian Smith",
+   "nemzetiseg": "angol",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Jefferson Airplane",
+   "muveszNev": "Jorma Kaukonen",
+   "nemzetiseg": null,
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Jethro Tull",
+   "muveszNev": "Martin Barre",
+   "nemzetiseg": "brit",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Journey",
+   "muveszNev": "Neal Schon",
+   "nemzetiseg": null,
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Kalmah",
+   "muveszNev": "Antti Kokko",
+   "nemzetiseg": null,
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "King Crimson",
+   "muveszNev": "Robert Fripp",
+   "nemzetiseg": "brit",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Kispál és a Borz",
+   "muveszNev": "Kispál András",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Kiss",
+   "muveszNev": "Ace Frehley",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Led Zeppelin",
+   "muveszNev": "Jimmy Page",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Marilyn Manson",
+   "muveszNev": "John 5",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Mediterrán",
+   "muveszNev": "Szörényi Levente",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Metallica",
+   "muveszNev": "James Hetfield",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Metallica",
+   "muveszNev": "Kirk Hammett",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Muse",
+   "muveszNev": "Matthew Bellamy",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "My Chemical Romance",
+   "muveszNev": "Frank Iero",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Nevermore",
+   "muveszNev": "Jeff Loomis",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Nine Inch Nails",
+   "muveszNev": "Robin Finck",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Nirvana",
+   "muveszNev": "Kurt Cobain",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "NO coMMent",
+   "muveszNev": "Móricz Mihály",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Ozzy Osbourne",
+   "muveszNev": "Zakk Wylde",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "P. Box",
+   "muveszNev": "Bencsik Sándor",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "P. Mobil",
+   "muveszNev": "Bencsik Sándor",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Pantera",
+   "muveszNev": "Dimebag Darrell",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Pearl Jam",
+   "muveszNev": "Mike McCready",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Pink Floyd",
+   "muveszNev": "David Gilmour",
+   "nemzetiseg": "brit",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Pink Floyd",
+   "muveszNev": "Syd Barrett",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Queen",
+   "muveszNev": "Brian May",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Rainbow",
+   "muveszNev": "Ritchie Blackmore",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Rammstein",
+   "muveszNev": "Richard Z. Kruspe",
+   "nemzetiseg": "német",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Rebellion",
+   "muveszNev": "Uwe Lulis",
+   "nemzetiseg": "német",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Red Hot Chili Peppers",
+   "muveszNev": "John Frusciante",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Rob Zombie",
+   "muveszNev": "John 5",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Sakál-Vokál",
+   "muveszNev": "Móricz Mihály",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Santana",
+   "muveszNev": "Neal Schon",
+   "nemzetiseg": null,
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Scorpions",
+   "muveszNev": "Rudolf Schenker",
+   "nemzetiseg": "német",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Sex Pistols",
+   "muveszNev": "Steve Jones",
+   "nemzetiseg": "angol",
+   "stilusNev": "punk"
+ },
+ {
+   "zenekarNev": "Slayer",
+   "muveszNev": "Jeff Hanneman",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Slayer",
+   "muveszNev": "Kerry King",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Slipknot",
+   "muveszNev": "James Root",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Slipknot",
+   "muveszNev": "Mick Thomson",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Small Faces",
+   "muveszNev": "Steve Marriott",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Stone Sour",
+   "muveszNev": "James Root",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "System of a Down",
+   "muveszNev": "Daron Malakian",
+   "nemzetiseg": "örmény-amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "The Beatles",
+   "muveszNev": "John Lennon",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Beatles",
+   "muveszNev": "George Harrison",
+   "nemzetiseg": "brit",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Clash",
+   "muveszNev": "Joe Strummer",
+   "nemzetiseg": "brit",
+   "stilusNev": "punk"
+ },
+ {
+   "zenekarNev": "The Clash",
+   "muveszNev": "Mick Jones",
+   "nemzetiseg": null,
+   "stilusNev": "punk"
+ },
+ {
+   "zenekarNev": "The Herd",
+   "muveszNev": "Peter Frampton",
+   "nemzetiseg": "angol-amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Jeff Beck Group",
+   "muveszNev": "Jeff Beck",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Jeff Beck Group",
+   "muveszNev": "Ronnie Wood",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Pogues",
+   "muveszNev": "Shane MacGowan",
+   "nemzetiseg": "ír",
+   "stilusNev": "punk"
+ },
+ {
+   "zenekarNev": "The Rolling Stones",
+   "muveszNev": "Keith Richards",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Rolling Stones",
+   "muveszNev": "Mick Taylor",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Rolling Stones",
+   "muveszNev": "Brian Jones",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Rolling Stones",
+   "muveszNev": "Ronnie Wood",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Shadows",
+   "muveszNev": "Hank Marvin",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Who",
+   "muveszNev": "Pete Townsend",
+   "nemzetiseg": null,
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Yardbirds",
+   "muveszNev": "Eric Clapton",
+   "nemzetiseg": "brit",
+   "stilusNev": "blues"
+ },
+ {
+   "zenekarNev": "The Yardbirds",
+   "muveszNev": "Jeff Beck",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "The Yardbirds",
+   "muveszNev": "Jimmy Page",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Tolcsvay-trió",
+   "muveszNev": "Tolcsvay László",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Tolcsvayék és a Trió",
+   "muveszNev": "Móricz Mihály",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Tolcsvayék és a Trió",
+   "muveszNev": "Tolcsvay László",
+   "nemzetiseg": "magyar",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Traveling Wilburys",
+   "muveszNev": "George Harrison",
+   "nemzetiseg": "brit",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Trivium",
+   "muveszNev": "Matt Heafy",
+   "nemzetiseg": "amerikai",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Uriah Heep",
+   "muveszNev": "Mick Box",
+   "nemzetiseg": "brit",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Van Halen",
+   "muveszNev": "Eddie Van Halen",
+   "nemzetiseg": "holland-amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Velvet Revolver",
+   "muveszNev": "Slash",
+   "nemzetiseg": "brit-amerikai",
+   "stilusNev": "rock"
+ },
+ {
+   "zenekarNev": "Windtorn",
+   "muveszNev": "Peter Windtorn Molnar",
+   "nemzetiseg": "magyar",
+   "stilusNev": "metál"
+ },
+ {
+   "zenekarNev": "Yes",
+   "muveszNev": "Steve Howe",
+   "nemzetiseg": "angol",
+   "stilusNev": "rock"
+ }
+]
