@@ -1,0 +1,17 @@
+body{
+    background-color: #CED5E0;
+}
+a, a:visited, a:hover, a:active{
+    text-decoration: none;
+    cursor: pointer;
+    color:red;
+}
+table{
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+th, td{
+    padding: 10px;
+}
