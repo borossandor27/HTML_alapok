@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="./studentReg.css">
+    <script src="./studentReg.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="./yourLogoHere.png" alt="yourLogoHere" id="yourLogoHere">
+            <h1>Student Registration Form</h1>
+            <p>Fill out the form to apply for training courses. You can conider your application accepted after you
+                receive a confirmation email.</p>
+        </header>
+        <form id="regForm" action="/submit" method="POST" enctype="multipart/form-data">
+            <!-- Student Information -->
+            <div class="flex-row">
+                <div class="form-group">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="middleName" name="middleName" placeholder="Middle Name">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="date" id="dob" name="dob" required placeholder="Date of Birth">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="studentId" name="studentId" placeholder="Student ID">
+                </div>
+            </div>
+
+            <!-- Address Information -->
+            <h2>Address</h2>
+            <div class="form-group">
+                <input type="text" id="address" name="address" placeholder="Street Address" required>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="city" name="city" placeholder="City" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="state" name="state" placeholder="State / Province" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="country" name="country" placeholder="Country" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="zipCode" name="zipCode" placeholder="ZIP Code" required>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <h2>Contact Information</h2>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+            </div>
+
+
+            <!-- Courses Section -->
+            <div class="form-section">
+                <h2>Courses</h2>
+                <div class="form-group">
+                    <button type="button" class="add-record">+ Add new record</button>
+                </div>
+    
+                <div class="form-row">
+                    <!-- Course -->
+                    <select name="course" id="course" class="form-control">
+                        <option value="" disabled selected>Course</option>
+                        <option value="webDevelopment">Web Development</option>
+                        <option value="dataScience">Data Science</option>
+                        <option value="cyberSecurity">Cyber Security</option>
+                        <option value="softwareEngineering">Software Engineering</option>
+                    </select>
+
+                    <!-- Level -->
+                    <select name="level" id="level" class="form-control">
+                        <option value="" disabled selected>Level</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+
+                    <!-- Language -->
+                    <select name="language" id="language" class="form-control">
+                        <option value="" disabled selected>Language</option>
+                        <option value="english">English</option>
+                        <option value="french">French</option>
+                        <option value="spanish">Spanish</option>
+                        <option value="german">German</option>
+                    </select>
+
+                    <!-- Start Date -->
+                    <select name="startDate" id="startDate" class="form-control">
+                        <option value="" disabled selected>Start Date</option>
+                        <option value="2024-01-15">January 15, 2024</option>
+                        <option value="2024-03-01">March 1, 2024</option>
+                        <option value="2024-06-10">June 10, 2024</option>
+                        <option value="2024-09-20">September 20, 2024</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea id="comments" name="comments" placeholder="Comments"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
