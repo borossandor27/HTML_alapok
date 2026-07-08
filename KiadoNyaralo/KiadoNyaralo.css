@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('./images/erdo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #003300;
+    text-align: center;
+}
+
+header h1,
+header h2 {
+    text-align: center;
+    color: #003300;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+main {
+    min-width: 700px;
+    width: 80vw;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: justify;
+}
+h3 {
+    margin-top: 20px;
+    color: #004400;
+}
+
+ul,
+ol {
+    margin-left: 40px;
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+a {
+    color: #006600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.kepek {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.kepek img {
+    width: auto;
+    height: 150px;
+    max-height: 15vh;
+    margin: 5px;
+    border: 1px solid #006600;
+    box-shadow: 5px 5px 5px #004400;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+table th,
+table td {
+    border: 1px solid #333;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #ccffcc;
+}
+
+em {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #990000;
+    font-style: italic;
+}
+
+ol {
+    max-width: 800px;
+    margin: 0 auto 30px;
+}

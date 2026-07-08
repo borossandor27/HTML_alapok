@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5f0d0;
+    margin: 0;
+    padding: 0;
+    font-size: clamp(14px, 2vw, 18px);
+    /* mobilon kisebb, nagy képernyőn nagyobb */
+    line-height: 1.6;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #4d6b35;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section#uticelok article {
+    clear: both;
+    margin-left: 2vw;
+}
+
+section#uticelok article h4 {
+    text-align: left;
+}
+
+section#uticelok article ul {
+    list-style-type: none;
+}
+
+.small-img {
+    max-width: 200px;
+    display: block;
+    margin-top: 1rem;
+    float: right;
+}
+
+.map-img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+div.container ul li {
+    display: block;
+}
+
+article.tajekoztatas p {
+    margin: 0 5vw;
+}
+
+.decor {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+white-space: nowrap;
+overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .small-img {
+        max-width: 100%;
+    }
+}

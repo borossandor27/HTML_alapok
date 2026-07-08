@@ -1,0 +1,21 @@
+
+.site-header {
+    background: #4da6ff;
+    padding: 20px;
+}
+
+.site-main {
+    background: #66cc66;
+    padding: 20px;
+}
+
+.widget-area {
+    background: #cc66cc;
+    padding: 20px;
+}
+
+.site-footer {
+    background: #0066cc;
+    padding: 20px;
+    color: white;
+}

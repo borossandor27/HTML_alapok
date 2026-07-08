@@ -1,0 +1,224 @@
+/* Alap stílusok */
+:root {
+    --primary-color: #1b4107;
+    --secondary-color: #8ba888;
+    --text-color: #222;
+    --light-bg: #fff;
+    --dark-bg: #e8e8e0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(14px, 1.2vw, 20px);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-bg);
+    background-image: url(./images/bonsai_hatter.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas: "header header"
+        "nav main"
+        "footer footer";
+    grid-template-columns: minmax(100px, 5vw) 1fr;
+    grid-template-rows: minmax(100px, 5vh)
+        1fr
+        minmax(100px, 5vh);
+}
+
+header {
+    grid-area: header;
+}
+
+header h1 {
+    color: darkgreen;
+    margin-left: 35vw;
+}
+
+nav {
+    grid-area: nav;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 1000;
+    width: 200px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 1.7rem;
+    display: block;
+    padding: 5px;
+    transition: background-color 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #222;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+main {
+    grid-area: main;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+h3 {
+    color: var(--primary-color);
+    margin-top: 1.5rem;
+}
+
+/* Tartalom stílusok */
+.content-section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+/* Képgaléria stílusok */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 1.5rem;
+}
+
+.gallery-item {
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery-item img {
+    max-height: 200px;
+
+    width: auto;
+    margin: 5px auto;
+}
+
+figcaption {
+    color: #222;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: smaller;
+}
+
+/* Link stílusok */
+#links {
+    margin-top: 2rem;
+}
+
+#links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#links li {
+    margin-bottom: 0.5rem;
+}
+
+#links a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+/* Lábléc stílusok */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+section#bevezeto img {
+    float: right;
+}
+
+
+/* Reszponzív stílusok */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .content-section {
+        padding: 1.5rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    header h1 {
+        color: darkgreen;
+        margin-left: 1vw;
+    }
+}

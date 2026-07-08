@@ -1,0 +1,144 @@
+body {
+    background-color: #faff8f;
+    font-family: Monotype Corsiva, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: clamp(14px, 1.4vw, 20px);
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    font-family: Arial, sans-serif;
+}
+
+header nav a {
+    color: blue;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 1024px;
+}
+
+.nap {
+    border-bottom: 3px solid red;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "nap menu kep";
+    grid-template-columns: 120px 1fr 150px;
+    align-items: center;
+    margin: 2px auto;
+}
+
+main>.nap:first-of-type {
+    border-top: 3px solid red;
+}
+
+.nap h2 {
+    grid-area: nap;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.nap ul {
+    grid-area: menu;
+    list-style-type: disc;
+}
+
+.nap li {
+    min-width: max-content;
+}
+
+.nap img {
+    grid-area: kep;
+    max-width: 150px;
+    border: 1px solid red;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.arak {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vh;
+    padding: 1vw;
+    background-color: rgba(250, 250, 250, .5);
+    border: 1px solid #ccc;
+}
+
+.ar-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* jobb szélre igazítás */
+}
+
+.ar-sor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin: 5px auto;
+}
+
+.megnevezes {
+    text-align: right;
+    margin-right: 10px;
+    /* opcionális: térköz a megnevezés és az ár között */
+}
+
+.ar {
+    text-align: right;
+    min-width: 100px;
+    /* opcionális: fix szélesség az áraknak */
+}
+
+.arak img {
+    max-height: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+footer .megjegyzes,
+footer .jog {
+    font-style: italic;
+    font-size: 14px;
+}
+
+footer .copy {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 720px)  {
+    .nap {
+            grid-template-areas: "nap kep"
+            "menu kep";
+    grid-template-columns: 1fr 150px;
+    }
+}

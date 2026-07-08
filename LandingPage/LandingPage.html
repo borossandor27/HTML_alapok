@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page vs. Kezdőlap</title>
+    <style>
+        :root {
+            --primary: #3498db;
+            --secondary: #2ecc71;
+            --accent: #e74c3c;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --gray: #6c757d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #2980b9 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .comparison {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary);
+        }
+
+        .card.landing {
+            border-top: 5px solid var(--secondary);
+        }
+
+        .card.homepage {
+            border-top: 5px solid var(--accent);
+        }
+
+        .feature-list {
+            list-style-type: none;
+        }
+
+        .feature-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .feature-list li:before {
+            content: "•";
+            color: var(--primary);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .examples {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 40px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .examples h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .scenario {
+            margin-bottom: 25px;
+            padding: 20px;
+            border-radius: 8px;
+            background: var(--light);
+        }
+
+        .scenario h3 {
+            color: var(--dark);
+            margin-bottom: 10px;
+        }
+
+        .scenario p {
+            color: var(--gray);
+        }
+
+        .conclusion {
+            background: linear-gradient(135deg, var(--secondary) 0%, #27ae60 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .conclusion h2 {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .comparison {
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Landing Page vs. Kezdőlap</h1>
+            <p class="subtitle">Mi a különbség és mikor melyiket érdemes használni?</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="comparison">
+                <div class="card landing">
+                    <h2>Landing Page</h2>
+                    <ul class="feature-list">
+                        <li>Egyetlen céllal és üzenettel rendelkezik</li>
+                        <li>Konverzióra optimalizált (pl. lead, vásárlás)</li>
+                        <li>Korlátozott navigáció, hogy a felhasználó ne terelődjön el</li>
+                        <li>Általában kampányokhoz, hirdetésekhez kapcsolódik</li>
+                        <li>Gyakran tartalmaz egyértelmű CTA (Call-to-Action) gombot</li>
+                        <li>Minimális elosztás, csak a lényeges információk</li>
+                    </ul>
+                </div>
+
+                <div class="card homepage">
+                    <h2>Kezdőlap (Homepage)</h2>
+                    <ul class="feature-list">
+                        <li>Áttekintést nyújt a teljes weboldalról</li>
+                        <li>Átfogó navigációs lehetőségeket kínál</li>
+                        <li>Több célközönség számára is releváns</li>
+                        <li>Bevezetést ad a vállalkozásról, szolgáltatásokról</li>
+                        <li>Különböző szekciók és információk keveréke</li>
+                        <li>Általános CTA-k, de nem annyira hangsúlyosak</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="examples">
+                <h2>Mikor nem a kezdőlap a landing page?</h2>
+
+                <div class="scenario">
+                    <h3>1. Fizetett kampányok</h3>
+                    <p>Ha Facebook vagy Google hirdetésre kattintanak, általában egy, a hirdetéshez szabott landing
+                        page-re érkezik a felhasználó, nem a kezdőlapra.</p>
+                </div>
+
+                <div class="scenario">
+                    <h3>2. E-mail marketing</h3>
+                    <p>Hírlevelekben szereplő linkek általában konkrét termékekre vagy akciókra mutató landing page-ekre
+                        vezetnek.</p>
+                </div>
+
+                <div class="scenario">
+                    <h3>3. Termékbemutatók</h3>
+                    <p>Egy új termék bemutatásakor érdemes egy erre specializált landing page-et létrehozni, nem a
+                        kezdőlapot használni.</p>
+                </div>
+
+                <div class="scenario">
+                    <h3>4. Események</h3>
+                    <p>Konferenciák, webináriumok vagy akciók esetén a felhasználókat egy, az eseményre szabott landing
+                        page-re irányítjuk.</p>
+                </div>
+            </div>
+
+            <div class="conclusion">
+                <h2>Összefoglalás</h2>
+                <p>A kezdőlap sokszor funkcionál landing page-ként, különösen kis weboldalak esetén. Azonban hatékony
+                    marketingkampányokhoz érdemes célzott landing page-eket készíteni, amelyek kizárólag a kampány
+                    üzenetére és céljára koncentrálnak.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2023 Landing Page vs. Kezdőlap Elemzés | Minden jog fenntartva</p>
+        </div>
+    </footer>
+</body>
+
+</html>

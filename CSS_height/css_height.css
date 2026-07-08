@@ -1,0 +1,37 @@
+  html, body {
+    margin: 0;
+    padding: 0;
+    /* Ezek szükségesek ahhoz, hogy a 100% height működjön */
+    height: 100%;
+  }
+body div{
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+  .teljes-képernyő-1 {
+    background-color: lightblue;
+    height: 100vh; /* Ez mindig a viewport magassága lesz */
+  }
+
+  .teljes-képernyő-2 {
+    background-color: lightgreen;
+    height: 100%; /* Ez a szülő (body) 100%-a lesz, ami 100% html miatt 100% viewport */
+  }
+
+  .konténer {
+    height: 300px;
+    background-color: lightcoral;
+  }
+
+  .gyermek {
+    background-color: orange;
+    height: 100%; /* Ez a konténer 100%-a lesz, azaz 300px */
+  }
+
+  .gyermek-vh {
+    background-color: purple;
+    height: 50vh; /* Ez a viewport magasságának 50%-a lesz, függetlenül a konténertől */
+  }

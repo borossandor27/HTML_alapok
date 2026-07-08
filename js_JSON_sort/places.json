@@ -1,0 +1,22 @@
+[
+    {
+        "city": "Los Angeles",
+        "country": "USA"
+    },
+    {
+        "city": "Boston",
+        "country": "USA"
+    },
+    {
+        "city": "Chicago",
+        "country": "USA"
+    },
+    {
+        "city": "New York",
+        "country": "USA"
+    },
+    {
+        "city": "San Francisco",
+        "country": "USA"
+    }
+]

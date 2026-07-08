@@ -1,0 +1,87 @@
+:root {
+    --brand-color: #ff6f61;
+}
+
+
+.carousel{
+    width: 100%;
+    margin: 3em auto;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1em;
+    scroll-behavior: smooth;
+    position: relative;
+    anchor-name: --carousel;
+}
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+.carousel::scroll-button(right), .carousel::scroll-button(left){
+    content: '►';
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    background-color: var(--brand-color);
+    background-size: 50% auto;
+    font-size: 3rem;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    right: 1em;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    position: fixed;
+    position-anchor: --carousel;
+    position-area: right center;
+    top: 50%;
+    right: -0.5em;
+    translate: -60px -50%;
+    z-index: 1;
+    scroll-snap-type: x mandatory;
+    scroll-marker-group: after;
+}
+.carousel::scroll-marker-group{
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+
+    scroll-snap-type: x mandatory;
+    scroll-marker-group: after;
+}
+.card::scroll-marker{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: #a33a3a;
+    content: '';
+}
+.carousel::scroll-button(left){
+    content: '◄';
+    left: .5em;
+    right: auto;
+    position-area: left center;
+    translate: 60px -50%;
+}
+.carousel::scroll-button(right):disabled, .carousel::scroll-button(left):disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.card{
+    scroll-snap-align: start;
+    flex:0 0 20em;
+    height: 12em;
+    width: auto;
+    border-radius: .5em;
+    margin: 0 auto;
+    scroll-snap-align: start;
+    background: #ccc;
+    text-align: center;
+    align-content: center;
+}
+.card img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5em;
+}

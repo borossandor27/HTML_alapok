@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Google keresőoptimalizálás 25 modern törvénye</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --success: #27ae60;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --gray: #7f8c8d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: var(--dark);
+            line-height: 1.7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #34495e 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--light);
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 25px;
+            border-radius: 8px;
+            background: var(--light);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .section h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--secondary);
+        }
+
+        .update-badge {
+            background: var(--success);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+            display: inline-block;
+        }
+
+        .rule {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+            border-left: 4px solid var(--secondary);
+        }
+
+        .rule h3 {
+            color: var(--dark);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .rule-number {
+            background: var(--secondary);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .modern-info {
+            background: #e8f4fc;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .modern-info h4 {
+            color: var(--secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        .modern-info-icon {
+            color: var(--secondary);
+            margin-right: 8px;
+        }
+
+        .tool-list {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .tool-list h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .tool-list ul {
+            list-style-type: none;
+            columns: 2;
+        }
+
+        .tool-list li {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .tool-list li:before {
+            content: "✓";
+            color: var(--success);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--gray);
+            font-size: 0.9rem;
+            background: var(--light);
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        @media (max-width: 768px) {
+            .tool-list ul {
+                columns: 1;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>A Google keresőoptimalizálás 25 modern törvénye</h1>
+            <p class="subtitle">Frissített és kiegészített SEO útmutató a diákok számára</p>
+        </header>
+
+        <div class="content">
+            <div class="section">
+                <h2>Bevezetés a keresőoptimalizálásba</h2>
+                <p>Hazánkban naponta kb. 3,5 millió ember keres a Google keresőben. Közöttük legalább 1 millióan
+                    vásárlási céllal. A döbbenetes, hogy akkor is az interneten tájékozódnak a vásárlás előtt, ha eszük
+                    ágában sincs a világhálón vásárolni.</p>
+                <p>Az Ön leendő vevője a Google keresőbe írja be az Ön tevékenységét, vagy az Ön árul termék nevét. Majd
+                    az ott található honlapok ajánlatait megversenyezteti egymással. Végül a nyerteshez megy el
+                    vásárolni.</p>
+            </div>
+
+            <div class="section">
+                <h2>A "vizsgált oldal - kulcsszó" relevancia</h2>
+
+                <div class="rule">
+                    <h3><span class="rule-number">1</span> Kulcsszó a dokumentum címében (TITLE)</h3>
+                    <p>Kiemelkedően fontos a keresőoptimalizálás során, hogy a dokumentum címe tartalmazza a
+                        kulcsszavakat. A Google bünteti azokat a honlapokat, amelyek kulcsszavakkal zsúfolják tele a
+                        dokumentum címét.</p>
+
+                    <p>A cím hossza ne haladja meg a 60 karaktert, és tartalmazza a fő kulcsszót a cím elején közel.</p>
+
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">2</span> Kulcsszó sűrűség az oldal szövegében (BODY)</h3>
+                    <p>Optimális esetben a kulcsszó sűrűség 0.5-1.5% között legyen. A túlzott "keresőoptimalizálás"
+                        visszájára is sülhet.</p>
+                    <p>Ma már a természetes nyelvhasználat és a témával kapcsolatos szavak (LSI kulcsszavak)
+                        fontosabbak, mint a pontos kulcsszó ismétlés.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">3</span> Kulcsszó a címsorokban (H1, H2, H3)</h3>
+                    <p>A Google tisztában van azzal, hogy az oldalon szereplő címsorokat sokkal nagyobb eséllyel
+                        olvassák el, mint a címsor alatti szöveget.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">4</span> Tartalom frissisége és minősége </h3>
+                    <p>A Google fontosnak tartja, hogy naprakész információkat tárjon a felhasználói elé. Ezért fontos,
+                        hogy gyakran frissüljön az oldal.</p>
+                    <p>A tartalom frissítése mellett a minőség és mélység (átfogó tartalom) egyre fontosabb. Az E-A-T
+                        (Expertise, Authoritativeness, Trustworthiness) alapelvek kiemelten fontosak.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">5</span> Mobiloptimalizálás</h3>
+                    <p>A Google 2019 óta mobile-first indexelést használ, ami azt jelenti, hogy elsődlegesen a mobil
+                        verziót értékeli.</p>
+                    <p>Reszponzív design, gyors betöltés és mobilbarát felhasználói élmény elengedhetetlen. A Core
+                        Web Vitals metrikáknak (LCP, FID, CLS) meg kell felelni.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>A "webhely - kulcsszó" relevancia <span class="update-badge">Bővítve</span></h2>
+
+                <div class="rule">
+                    <h3><span class="rule-number">6</span> Domain életkora és hitelesség</h3>
+                    <p>A Google szerint minél régebb óta létezik egy domain, annál inkább megbízható.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">7</span> Webhelyre jellemző kulcsszavak</h3>
+                    <p>A Google szeretné kellő pontossággal megállapítani, hogy egy webhely miről szól.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">8</span> Tartalomfrissítés gyakorisága</h3>
+                    <p>Egy webhely hitelességét, naprakész állapotát jól jellemzi, milyen gyakran jelennek meg új
+                        tartalmak.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">9</span> Belső linkelés struktúrája <span
+                            class="update-badge">Bővítve</span></h3>
+                    <p>A webhelyen belüli navigáció a belső linkeken keresztül történik.</p>
+                    <p>A belső linkelés nemcsak navigációt segít, hanem a tematikus csoportok (topic clusters)
+                        kialakításában is kulcsszerepe van, ami javítja a domain authorityt.</p>
+
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">10</span> Technikai SEO <span class="update-badge">Új</span></h3>
+                    <p>A webhely technikai állapota jelentősen befolyásolja a rangsorolást.</p>
+                    <p>SSL tanúsítvány, gyors oldalbetöltés, tiszta URL struktúra, XML sitemap, robots.txt megfelelő
+                        beállítása, strukturált adatok (Schema.org) használata.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Az "oldalra hivatkozó linkek - kulcsszó" relevancia</h2>
+
+                <p>A linkeken keresztül áramlik a forgalom a honlapok között. A linkek szövege jelentősen
+                    használható az oldal tartalmának azonosítására.</p>
+
+
+                <div class="rule">
+                    <h3><span class="rule-number">12</span> Bejövő linkek relevanciája</h3>
+                    <p>Egyetlen releváns link adott esetben többet érhet száz irreleváns linknél.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">13</span> Bejövő linkek minősége</h3>
+                    <p>A link szövegén túl az is számít, hogy az Ön oldalát linkelő oldalt milyennek tartja a Google.
+                    </p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">14</span> Bejövő linkek mennyisége és diverzitása </h3>
+                    <p>Minél több link mutat az oldalra, annál kedvezőbb elbírálást kap a honlap a rangsoroláskor.</p>
+                    <p>A linkek száma mellett a források diverzitása (különböző domainek, IP-címek, országok) és a
+                        természetes növekedési ütem (nem hirtelen tömeges linképítés) a legfontosabb.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">15</span> Lokális SEO <span class="update-badge">Új</span></h3>
+                    <p>Helyi vállalkozások számára a lokális keresőoptimalizálás kiemelten fontos.</p>
+                    <p>Google My Business profil optimalizálása, helyi címmel való konzisztencia, helyi hírcikkek és
+                        visszajelzések gyűjtése.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Modern SEO tényezők <span class="update-badge">Új</span></h2>
+
+                <div class="rule">
+                    <h3><span class="rule-number">16</span> Felhasználói élmény (UX) </h3>
+                    <p>A Google egyre jobban méri a felhasználói viselkedést és ennek alapján értékeli az oldalakat.</p>
+                    <p>Alacsony ugrási arány (bounce rate), hosszú oldalon töltött idő, mély navigáció (több oldal
+                        megtekintése) pozitív jelek. A Core Web Vitals (LCP, FID, CLS) formális rangsorolási
+                        tényezők.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">17</span> Hangalapú keresések optimalizálása </h3>
+                    <p>A hangalapú keresések (voice search) egyre népszerűbbek.</p>
+                    <p>Természetes nyelvű, beszédszerű tartalmak, gyakran ismétlődő kérdések (FAQ szakasz), konkrét
+                        válaszok a kérdésekre (featured snippet célzás).</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">18</span> Videó marketing</h3>
+                    <p>A videótartalmak egyre fontosabbak a keresőoptimalizálásban.</p>
+                    <p>Videó transzkripció, videó sitemap, a videó beágyazása és megfelelő megjelölése Schema.org
+                        jelölésekkel.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">19</span> Közösségi jelzésérték </h3>
+                    <p>A közösségi médiában való megjelenés közvetetten befolyásolja a SEO-t.</p>
+                    <p>Bár a közössémi megjelenés nem közvetlen rangsorolási tényező, a megosztások növelik a
+                        látogatottságot és a brand ismerettséget, ami közvetve pozitív hatással van a SEO-ra.</p>
+                </div>
+
+                <div class="rule">
+                    <h3><span class="rule-number">20</span> E-A-T (Szaktudás, Hitelesség, Megbízhatóság) </h3>
+                    <p>Kiemelten fontos YMYL (Your Money Your Life) oldalak számára.</p>
+                    <p>Szerző bemutatása, kapcsolattartási lehetőségek, források megjelölése, bizalomgerjesztő
+                        elemek (vélemények, tanúsítványok).</p>
+                </div>
+            </div>
+
+            <div class="tool-list">
+                <h3>Ingyenes SEO eszközök gyakorlati tanuláshoz:</h3>
+                <ul>
+                    <li>Google Search Console</li>
+                    <li>Google Analytics</li>
+                    <li>Google Keyword Planner</li>
+                    <li>Google PageSpeed Insights</li>
+                    <li>Google Mobile-Friendly Test</li>
+                    <li>Google Trends</li>
+                    <li>AnswerThePublic (kulcsszó kutatás)</li>
+                    <li>Screaming Frog SEO Spider (alapverzió)</li>
+                    <li>Moz Link Explorer (korlátozott verzió)</li>
+                    <li>SEMrush (korlátozott ingyenes verzió)</li>
+                </ul>
+            </div>
+                    <div class="content">
+            <div class="intro">
+                <p>Az alábbi lista a legfontosabb ingyenes SEO eszközöket tartalmazza, amelyek segítenek a honlapok optimalizálásában és a keresőmotorok megértésében. Minden eszközhöz hozzáadtam a direkt linket, így egy kattintással elérheted őket.</p>
+            </div>
+            
+            <div class="tool-list">
+                <h2>SEO eszközök kategóriánként</h2>
+                
+                <div class="tool-category">
+                    <h3>Google eszközök</h3>
+                    <div class="tool-grid">
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">📊</span> Google Search Console</h4>
+                            <p class="tool-description">A honlap teljesítményének elemzése a keresőben, hibák azonosítása és javítása.</p>
+                            <a href="https://search.google.com/search-console/" class="tool-link" target="_blank">search.google.com/search-console</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">📈</span> Google Analytics</h4>
+                            <p class="tool-description">Részletes webes statisztikák a látogatók forrásáról, viselkedéséről és konverzióiról.</p>
+                            <a href="https://analytics.google.com/" class="tool-link" target="_blank">analytics.google.com</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">🔍</span> Google Keyword Planner</h4>
+                            <p class="tool-description">Kulcsszavak keresési volumenének és versenyhelyzetének elemzése.</p>
+                            <a href="https://ads.google.com/home/tools/keyword-planner/" class="tool-link" target="_blank">ads.google.com/keyword-planner</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">⚡</span> Google PageSpeed Insights</h4>
+                            <p class="tool-description">Weboldalak sebességének elemzése és javaslatok a gyorsításra.</p>
+                            <a href="https://pagespeed.web.dev/" class="tool-link" target="_blank">pagespeed.web.dev</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">📱</span> Google Mobile-Friendly Test</h4>
+                            <p class="tool-description">Weboldal mobilbarátságának tesztelése és javaslatok.</p>
+                            <a href="https://search.google.com/test/mobile-friendly" class="tool-link" target="_blank">search.google.com/mobile-friendly</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">📊</span> Google Trends</h4>
+                            <p class="tool-description">Kulcsszavak népszerűségének időbeli változásának nyomon követése.</p>
+                            <a href="https://trends.google.com/" class="tool-link" target="_blank">trends.google.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tool-category">
+                    <h3>Kulcsszó kutatás</h3>
+                    <div class="tool-grid">
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">❓</span> AnswerThePublic</h4>
+                            <p class="tool-description">Keresők által feltett kérdések felderítése témák szerint.</p>
+                            <a href="https://answerthepublic.com/" class="tool-link" target="_blank">answerthepublic.com</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">💡</span> Keyword Tool</h4>
+                            <p class="tool-description">Kulcsszavak generálása Google, YouTube, Amazon és más platformokhoz.</p>
+                            <a href="https://keywordtool.io/" class="tool-link" target="_blank">keywordtool.io</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">📋</span> Keyword Sheeter</h4>
+                            <p class="tool-description">Gyors kulcsszó ötletek generálása másodpercek alatt.</p>
+                            <a href="https://keywordsheeter.com/" class="tool-link" target="_blank">keywordsheeter.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tool-category">
+                    <h3>Technikai SEO</h3>
+                    <div class="tool-grid">
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">🐸</span> Screaming Frog SEO Spider</h4>
+                            <p class="tool-description">Weboldalak technikai elemzése (500 URL-ig ingyenes).</p>
+                            <a href="https://www.screamingfrog.co.uk/seo-spider/" class="tool-link" target="_blank">screamingfrog.co.uk/seo-spider</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">🔗</span> Moz Link Explorer</h4>
+                            <p class="tool-description">Backlink elemzés és domain autoritás ellenőrzés (korlátozott ingyenes verzió).</p>
+                            <a href="https://moz.com/link-explorer" class="tool-link" target="_blank">moz.com/link-explorer</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">🌐</span> SEMrush</h4>
+                            <p class="tool-description">Átfogó SEO eszközkészlet (korlátozott ingyenes verzió).</p>
+                            <a href="https://www.semrush.com/" class="tool-link" target="_blank">semrush.com</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">📝</span> SEOptimer</h4>
+                            <p class="tool-description">SEO audit és javaslatok egyetlen jelentésben.</p>
+                            <a href="https://www.seoptimer.com/" class="tool-link" target="_blank">seoptimer.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tool-category">
+                    <h3>Egyéb hasznos eszközök</h3>
+                    <div class="tool-grid">
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">📄</span> Schema Markup Generator</h4>
+                            <p class="tool-description">Strukturált adatok generálása a honlap számára.</p>
+                            <a href="https://technicalseo.com/tools/schema-markup-generator/" class="tool-link" target="_blank">technicalseo.com/schema-generator</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">🖼️</span> TinyPNG</h4>
+                            <p class="tool-description">Képek optimális tömörítése a webes használatra.</p>
+                            <a href="https://tinypng.com/" class="tool-link" target="_blank">tinypng.com</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">📧</span> Email Hunter</h4>
+                            <p class="tool-description">Email címek keresése domain nevek alapján (korlátozott ingyenes verzió).</p>
+                            <a href="https://hunter.io/" class="tool-link" target="_blank">hunter.io</a>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <h4><span class="tool-icon">📊</span> Google Structured Data Testing Tool</h4>
+                            <p class="tool-description">Strukturált adatok tesztelése és validálása.</p>
+                            <a href="https://search.google.com/structured-data/testing-tool" class="tool-link" target="_blank">search.google.com/structured-data</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="conclusion">
+                <h2>Tanulási tippek</h2>
+                <p>Próbáld ki ezeket az eszközöket gyakorlati projektek során! Kezdd a Google eszközökkel (Search Console, Analytics), mert ezek a legfontosabbak, majd egyszerre csak egy-két új eszközt sajátíts el. Végül integráld őket a munkafolyamataidba.</p>
+            </div>
+        </div>
+        </div>
+
+        <footer>
+            <p>© 2023 Modern SEO Útmutató | Frissítve és bővítve a diákok számára</p>
+        </footer>
+    </div>
+</body>
+
+</html>

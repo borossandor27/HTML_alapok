@@ -1,0 +1,236 @@
+[
+  {
+    "Varos": "Baja",
+    "Megye": "Bács-Kiskun",
+    "Lakossag": "32 759",
+    "Terulet": "177,61",
+    "TszfelettiMagassag": 75,
+    "cimerFajl": "HUN_Baja_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Baja#/media/F%C3%A1jl:HUN_Baja_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Békéscsaba",
+    "Megye": "Békés",
+    "Lakossag": "54 460",
+    "Terulet": "193,94",
+    "TszfelettiMagassag": 89,
+    "cimerFajl": "HUN_Békéscsaba_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/B%C3%A9k%C3%A9scsaba#/media/F%C3%A1jl:HUN_B%C3%A9k%C3%A9scsaba_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Debrecen",
+    "Megye": "Hajdú-Bihar",
+    "Lakossag": "201 704",
+    "Terulet": "461,66",
+    "TszfelettiMagassag": 121,
+    "cimerFajl": "Coa_Hungary_Town_Debrecen.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Debrecen#/media/F%C3%A1jl:Coa_Hungary_Town_Debrecen.svg"
+  },
+  {
+    "Varos": "Dunaújváros",
+    "Megye": "Fejér",
+    "Lakossag": "41 394",
+    "Terulet": "52,66",
+    "TszfelettiMagassag": 97,
+    "cimerFajl": "Dunaújváros.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Duna%C3%BAjv%C3%A1ros#/media/F%C3%A1jl:Duna%C3%BAjv%C3%A1ros.svg"
+  },
+  {
+    "Varos": "Eger",
+    "Megye": "Heves",
+    "Lakossag": "49 499",
+    "Terulet": "92,21",
+    "TszfelettiMagassag": 165,
+    "cimerFajl": "Blason_ville_hu_EGER.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Eger#/media/F%C3%A1jl:Blason_ville_hu_EGER.svg"
+  },
+  {
+    "Varos": "Esztergom",
+    "Megye": "Komárom-Esztergom",
+    "Lakossag": "28 642",
+    "Terulet": "100,35",
+    "TszfelettiMagassag": 105,
+    "cimerFajl": "BlasonHU-esztergom.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Esztergom#/media/F%C3%A1jl:BlasonHU-esztergom.svg"
+  },
+  {
+    "Varos": "Érd",
+    "Megye": "Pest",
+    "Lakossag": "71 338",
+    "Terulet": "60,54",
+    "TszfelettiMagassag": "-",
+    "cimerFajl": "Coat_of_arms_of_Érd.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/%C3%89rd#/media/F%C3%A1jl:Coat_of_arms_of_%C3%89rd.svg"
+  },
+  {
+    "Varos": "Győr",
+    "Megye": "Győr-Moson-Sopron",
+    "Lakossag": "130 191",
+    "Terulet": "174,62",
+    "TszfelettiMagassag": 108,
+    "cimerFajl": "HUN_Győr_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Gy%C5%91r#/media/F%C3%A1jl:HUN_Gy%C5%91r_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Hódmezővásárhely",
+    "Megye": "Csongrád-Csanád",
+    "Lakossag": "41 781",
+    "Terulet": "487,98",
+    "TszfelettiMagassag": "-",
+    "cimerFajl": "HUN_Hódmezővásárhely_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely#/media/F%C3%A1jl:HUN_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Kaposvár",
+    "Megye": "Somogy",
+    "Lakossag": "58 830",
+    "Terulet": "113,59",
+    "TszfelettiMagassag": 153,
+    "cimerFajl": "HUN_Kaposvár_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Kaposv%C3%A1r#/media/F%C3%A1jl:HUN_Kaposv%C3%A1r_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Kecskemét",
+    "Megye": "Bács-Kiskun",
+    "Lakossag": "109 450",
+    "Terulet": "322,57",
+    "TszfelettiMagassag": 102,
+    "cimerFajl": "Coa_Hungary_Town_Kecskemét.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Kecskem%C3%A9t#/media/F%C3%A1jl:Coa_Hungary_Town_Kecskem%C3%A9t.svg"
+  },
+  {
+    "Varos": "Miskolc",
+    "Megye": "Borsod-Abaúj-Zemplén",
+    "Lakossag": "143 502",
+    "Terulet": "236,68",
+    "TszfelettiMagassag": 131,
+    "cimerFajl": "HUN_Miskolc_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Miskolc#/media/F%C3%A1jl:HUN_Miskolc_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Nagykanizsa",
+    "Megye": "Zala",
+    "Lakossag": "42 502",
+    "Terulet": "148,4",
+    "TszfelettiMagassag": "-",
+    "cimerFajl": "HUN_Nagykanizsa_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Nagykanizsa#/media/F%C3%A1jl:HUN_Nagykanizsa_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Nyíregyháza",
+    "Megye": "Szabolcs-Szatmár-Bereg",
+    "Lakossag": "115 359",
+    "Terulet": "274,54",
+    "TszfelettiMagassag": 116,
+    "cimerFajl": "HUN_Nyíregyháza_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Ny%C3%ADregyh%C3%A1za#/media/F%C3%A1jl:HUN_Ny%C3%ADregyh%C3%A1za_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Pécs",
+    "Megye": "Baranya",
+    "Lakossag": "140 330",
+    "Terulet": "162,61",
+    "TszfelettiMagassag": 153,
+    "cimerFajl": "COA_Hungary_Town_Pécs.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/P%C3%A9cs#/media/F%C3%A1jl:COA_Hungary_Town_P%C3%A9cs.svg"
+  },
+  {
+    "Varos": "Salgótarján",
+    "Megye": "Nógrád",
+    "Lakossag": "30 910",
+    "Terulet": "102,96",
+    "TszfelettiMagassag": "-",
+    "cimerFajl": "HUN_Salgótarján_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Salg%C3%B3tarj%C3%A1n#/media/F%C3%A1jl:HUN_Salg%C3%B3tarj%C3%A1n_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Sopron",
+    "Megye": "Győr-Moson-Sopron",
+    "Lakossag": "61 589",
+    "Terulet": "169,04",
+    "TszfelettiMagassag": 217,
+    "cimerFajl": "Coa_Hungary_Town_Sopron.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Sopron#/media/F%C3%A1jl:Coa_Hungary_Town_Sopron.svg"
+  },
+  {
+    "Varos": "Szeged",
+    "Megye": "Csongrád-Csanád",
+    "Lakossag": "157 930",
+    "Terulet": 281,
+    "TszfelettiMagassag": 75,
+    "cimerFajl": "HUN_Szeged_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Szeged#/media/F%C3%A1jl:HUN_Szeged_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Székesfehérvár",
+    "Megye": "Fejér",
+    "Lakossag": "96 024",
+    "Terulet": "170,89",
+    "TszfelettiMagassag": 118,
+    "cimerFajl": "https://hu.wikipedia.org/wiki/Sz%C3%A9kesfeh%C3%A9rv%C3%A1r#/media/F%C3%A1jl:HUN_Sz%C3%A9kesfeh%C3%A9rv%C3%A1r_C%C3%ADmer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Sz%C3%A9kesfeh%C3%A9rv%C3%A1r#/media/F%C3%A1jl:HUN_Sz%C3%A9kesfeh%C3%A9rv%C3%A1r_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Szekszárd",
+    "Megye": "Tolna",
+    "Lakossag": "29 707",
+    "Terulet": "96,28",
+    "TszfelettiMagassag": "-",
+    "cimerFajl": "HUN_Szekszárd_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Szeksz%C3%A1rd#/media/F%C3%A1jl:HUN_Szeksz%C3%A1rd_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Szolnok",
+    "Megye": "Jász-Nagykun-Szolnok",
+    "Lakossag": "66 426",
+    "Terulet": "187,24",
+    "TszfelettiMagassag": 86,
+    "cimerFajl": "HUN_Szolnok_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Szolnok#/media/F%C3%A1jl:HUN_Szolnok_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Szombathely",
+    "Megye": "Vas",
+    "Lakossag": "77 757",
+    "Terulet": "97,52",
+    "TszfelettiMagassag": 216,
+    "cimerFajl": "HUN_Szombathely_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Szombathely#/media/F%C3%A1jl:HUN_Szombathely_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Tatabánya",
+    "Megye": "Komárom-Esztergom",
+    "Lakossag": "65 861",
+    "Terulet": "91,42",
+    "TszfelettiMagassag": 167,
+    "cimerFajl": "HUN_Tatabánya_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Tatab%C3%A1nya#/media/F%C3%A1jl:HUN_Tatab%C3%A1nya_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Veszprém",
+    "Megye": "Veszprém",
+    "Lakossag": "56 029",
+    "Terulet": "126,9",
+    "TszfelettiMagassag": 266,
+    "cimerFajl": "HUN_Veszprém_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Veszpr%C3%A9m#/media/F%C3%A1jl:HUN_Veszpr%C3%A9m_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Zalaegerszeg",
+    "Megye": "Zala",
+    "Lakossag": "55 152",
+    "Terulet": "102,42",
+    "TszfelettiMagassag": 166,
+    "cimerFajl": "HUN_Zalaegerszeg_Címer.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Zalaegerszeg#/media/F%C3%A1jl:HUN_Zalaegerszeg_C%C3%ADmer.svg"
+  },
+  {
+    "Varos": "Budapest",
+    "Megye": "–",
+    "Lakossag": "1 686 222",
+    "Terulet": "525,14",
+    "TszfelettiMagassag": 105,
+    "cimerFajl": "Coa_Hungary_Town_Budapest_big.svg",
+    "cimerUrl": "https://hu.wikipedia.org/wiki/Budapest#/media/F%C3%A1jl:Coa_Hungary_Town_Budapest_big.svg"
+  }
+]

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kedvenc Filmjeim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Főoldal</a></li>
+      <li><a href="kapcsolat.html">Kapcsolat</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>📽️ A kedvenc filmjeim 📽️</h1>
+    <button id="colorChangeBtn">Háttérszín változtatása</button>
+  </header>
+
+  <section id="lista">
+    <h2>Film lista</h2>
+    <ul id="filmLista">
+      <li data-kepfajl="./images/remeny_rabjai.jpg">A remény rabjai</li>
+      <li data-kepfajl="./images/forrest_gump.jpg">Forrest Gump</li>
+      <li data-kepfajl="./images/sotet_lovag.jpg">A sötét lovag</li>
+      <li data-kepfajl="./images/inception.jpg">Inception</li>
+    </ul>
+  </section>
+
+  <section id="kep">
+    <h2>Kedvenc jelenet</h2>
+    <img id="kedvencJelenet" class="responsive-img" src="./images/Placeholder.svg" alt="Kedvenc filmjelenet">
+  </section>
+
+  <footer><span id="dynamicContent"></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

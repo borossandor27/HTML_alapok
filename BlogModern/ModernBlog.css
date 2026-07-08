@@ -1,0 +1,216 @@
+/* ALAPÉRTELMEZETT STÍLUSOK */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* FELADAT 1: HEADER STÍLUSOK */
+header {
+    background-color: #2c3e50;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+/* FELADAT 2: LOGO STÍLUSOK */
+header .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    /* A logo balra, a navigáció jobbra kerül */
+    padding-left: 20px;
+    float: left;
+}
+
+/* FELADAT 3: NAVIGÁCIÓ STÍLUSOK */
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+header nav li {
+    /* Nincs szükség további stílusra */
+}
+
+/* FELADAT 4: NAVIGÁCIÓS LINKEK */
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+header nav a:hover {
+    background-color: rgba(148, 8, 8, 0.855);
+}
+
+/* FELADAT 5: HERO SZEKCIÓ */
+.hero {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* FELADAT 6: HERO SZÖVEG */
+.hero h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* FELADAT 7: CONTAINER */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* FELADAT 8: BLOG GRID */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+/* FELADAT 9: BLOG KÁRTYÁK */
+.blog-card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+/* FELADAT 10: KÁRTYA HOVER EFFEKT */
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* FELADAT 11: KÁRTYA KÉPEK */
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* FELADAT 12: KÁRTYA TARTALOM */
+.blog-card-content {
+    padding: 20px;
+}
+
+/* FELADAT 13: KÁRTYA CÍMEK */
+.blog-card h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.blog-card p {
+    color: #555;
+    line-height: 1.5;
+}
+
+/* FELADAT 14: FOOTER */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+/* BÓNUSZ FELADAT 15: RESZPONZÍV DESIGN */
+@media (max-width: 768px) {
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        background-color: #2c3e50;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+        box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        color: white;
+        font-size: 24px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    .hero {
+        height: 300px;
+    }
+}
+
+/* Egyéb stílusok */
+.menu-toggle {
+    display: none;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 15px;
+    color: #3498db;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}

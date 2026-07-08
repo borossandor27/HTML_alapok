@@ -1,0 +1,151 @@
+:root {
+    --header-background-color: purple;
+    --background-secondary-color: #0099cc;
+    --background-primary-color: #f5f5f5;
+    --background-szurke: #eeeeee;
+    --border-szurke: #cccccc;
+    --primary-text-color: #000000;
+    --secondary-text-color: white;
+    --heading-color: navy;
+    --heading-hover-color: red;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--background-primary-color);
+    color: var(--primary-text-color);
+    line-height: 1.6;
+    font-size: 1.1vw;
+    display: grid;
+    grid-template-columns: minmax(250px,300px) 1fr 400px;
+    grid-template-rows: 80px 1fr 70px;
+    grid-template-areas:
+        'header header header'
+        'menu main right'
+        'footer footer footer';
+    gap: 10px;
+}
+
+main {
+    grid-area: main;
+    padding: 1rem;
+    font-size: larger;
+}
+
+header {
+    grid-area: header;
+    color: var(--secondary-text-color);
+    background-color: var(--header-background-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+header h1 {
+    padding-bottom: 15px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: var(--background-secondary-color);
+    color: var(--secondary-text-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+aside.ads {
+    grid-area: right;
+    border: 1px solid var(--background-secondary-color);
+    background-color: var(--background-szurke);
+    padding: 15px;
+    color: var(--primary-text-color);
+    font-size: 0.9vw;
+    margin-right: 2vw;
+}
+
+aside.sidebar {
+    grid-area: menu;
+    margin-left: 1vw;
+}
+
+aside.sidebar>div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside.sidebar>div li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: var(--background-secondary-color);
+    color: var(--secondary-text-color);
+}
+
+aside.sidebar>div li:hover {
+    background-color: var(--heading-hover-color);
+}
+
+section.content {
+    grid-area: main;
+    margin: .2vh 2vw;
+}
+
+article {
+    margin: 1vw;
+    padding: 1vw;
+    background-color: var(--background-szurke);
+    border-radius: 5px;
+    border: 1px solid var(--border-szurke);
+}
+
+article h2 {
+    color: var(--heading-color);
+}
+
+article a {
+    text-decoration: none;
+}
+
+article a:hover {
+    color: var(--heading-hover-color);
+}
+
+article p {
+    margin: .5rem;
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px auto auto 70px;
+        grid-template-areas:
+            'header'
+            'main'
+            'menu'
+            'footer';
+        gap: 10px;
+        background-color: white;
+        padding: 1rem;
+        font-size: larger;
+    }
+
+    aside.ads {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        min-width: auto;
+    }
+}

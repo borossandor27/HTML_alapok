@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 1vw;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "navbar navbar navbar navbar"
+        "sidebar main main main"
+        "sidebar content1 content2 content3"
+        "sidebar footer footer footer";
+    grid-template-columns: 200px repeat(3, 1fr);
+    grid-template-rows: 1fr 4fr 4fr 2fr;
+    gap: 10px;
+    min-height: 100vh;
+}
+
+header {
+    grid-area: navbar;
+    background: #aaf;
+    padding: 20px;
+    text-align: center;
+}
+
+aside {
+    grid-area: sidebar;
+    background: #4df;
+    padding: 20px;
+}
+
+main {
+    grid-area: main;
+    background: #7ef;
+    padding: 20px;
+}
+
+.content1 {
+    grid-area: content1;
+    background: #7fd;
+    padding: 20px;
+}
+
+.content2 {
+    grid-area: content2;
+    background: #6ec;
+    padding: 20px;
+}
+
+.content3 {
+    grid-area: content3;
+    background: #5db;
+    padding: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background: #3ca;
+    padding: 20px;
+    text-align: center;
+}
+header, footer, main, aside, .content1, .content2, .content3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+}
+/* --- Mobil nézet --- */
+@media (max-width: 768px) {
+    .container {
+        grid-template-areas:
+            "navbar"
+            "sidebar"
+            "main"
+            "content1"
+            "content2"
+            "content3"
+            "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 4fr repeat(3, 2fr) 2fr;
+    }
+}

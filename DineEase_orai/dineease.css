@@ -1,0 +1,109 @@
+:root {
+  --background-color: rgba(124, 58, 237, 1);
+  --background-color-hover: rgba(124, 58, 237, 1);
+  --border-color: rgba(124, 58, 237, 1);
+  --border-color-hover: rgba(124, 58, 237, 1);
+  --background-color-light: #ede9fe;
+  --circle-diameter:360px;
+}
+#navbarSupportedContent {
+  background-image: url(images/nav_background.png);
+  background-repeat: repeat-y;
+}
+.card-img-top {
+  height: 25vh;
+  object-fit: cover;
+}
+.heroDineease{
+  background-image: url(images/hero_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.btn-primary {
+  background-color: var(--background-color);
+  border-color: var(--border-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--background-color-hover);
+  border-color: var(--border-color-hover);
+
+}
+
+.rotated {
+  /* tg α = 70/556 = 0.1254 = 7.131 deg */
+  --degree: 30deg;
+  width: 556px;
+  height: 70px;
+  transform: rotate(var(--degree)) skew(180-var(--degree)); /* Equal to rotateZ(45deg) */
+  background-color: pink;
+}
+
+#heroDineease {
+  margin-top: 130px;
+}
+
+/* top 3 éttermet tartalmazó div formázása */
+#top3 {
+  position: relative;
+  width: auto;
+  /* Adj megfelelő szélességet a div-nek */
+  height: auto;
+  /* Adj megfelelő magasságot a div-nek */
+
+
+  /* Az alsó bal sarkon lévő kör */
+  &::before {
+    z-index: -5000;
+    content: '';
+    position: absolute;
+    width: var(--circle-diameter);
+    /* Állítsd be a kör szélességét */
+    height: var(--circle-diameter); 
+    /* Állítsd be a kör magasságát */
+    border-radius: 50%;
+    /* Kerekített szélek kialakítása */
+    background-color: var(--background-color-light);
+    /* Válassz egy kör színt */
+    bottom: -50px;
+    left: -20px;
+  }
+
+  /* A felső jobb sarkon lévő kör */
+  &::after {
+    z-index: -5000;
+    content: '';
+    position: absolute;
+    width: var(--circle-diameter);
+    /* Állítsd be a kör szélességét */
+    height: var(--circle-diameter);
+    /* Állítsd be a kör magasságát */
+    border-radius: 50%;
+    /* Kerekített szélek kialakítása */
+    background-color: var(--background-color-light);
+    /* Válassz egy kör színt */
+    top: 0;
+    right: 0;
+  }
+
+
+}
+
+/* véleményeket tartalmazó div formázása */
+#testimonials {
+  background-color: var(--background-color-light);
+}
+.grey {
+  filter: grayscale(100%);
+}
+
+#top3restorants {
+  position: relative;
+  width: 80%;
+  /* Adj megfelelő szélességet a div-nek */
+  height: auto;
+  /* Adj megfelelő magasságot a div-nek */
+}

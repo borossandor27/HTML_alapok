@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Szelektorok Bemutató</title>
+  <style>
+    /* Jelölő (tag) szelektor */
+    p {
+      color: blue;
+    }
+
+    /* Osztály szelektor */
+    .kiemelt {
+      font-weight: bold;
+    }
+
+    /* Azonosító (ID) szelektor */
+    #fontos {
+      background-color: yellow;
+    }
+
+    /* Leszármazott szelektor (pl. div-en belüli span) */
+    div span {
+      text-decoration: underline;
+    }
+
+    /* Közvetlen utód szelektor (pl. div > p) */
+    section > p {
+      font-style: italic;
+    }
+
+    /* Attribútum szelektor */
+    a[target="_blank"] {
+      color: red;
+    }
+
+    /* Pszeudoosztály: első bekezdés */
+    p:first-child {
+      border-bottom: 1px solid gray;
+    }
+
+    /* Pszeudoelem: első betű */
+    p::first-letter {
+      font-size: 150%;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Szelektorok Bemutató</h1>
+
+  <p>Ez egy egyszerű bekezdés (tag szelektor).</p>
+
+  <p class="kiemelt">Ez egy kiemelt bekezdés (osztály szelektor).</p>
+
+  <p id="fontos">Ez egy fontos bekezdés (ID szelektor).</p>
+
+  <div>
+    <span>Ez egy span egy div-en belül (leszármazott szelektor).</span>
+  </div>
+
+  <section>
+    <p>Ez egy közvetlen gyermek bekezdés (utód szelektor).</p>
+    <div>
+      <p>Ez NEM közvetlen gyermek (nem stílusozódik).</p>
+    </div>
+  </section>
+
+  <a href="https://example.com" target="_blank">Ez egy link, ami új lapon nyílik (attribútum szelektor).</a>
+
+</body>
+</html>

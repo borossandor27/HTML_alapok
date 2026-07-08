@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            width: 100%;
+            height: 50vh;
+            /* Példa magasság a láthatóság kedvéért */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('./images.jpg') no-repeat center center / cover;
+            background-color: aliceblue;
+                       
+  color: transparent; /* A szöveg színét átlátszóvá tesszük */
+  background-clip: text; /* A háttérkép a szövegre vágódik */
+  -webkit-background-clip: text; /* WebKit böngészőkhöz (pl. Chrome, Safari) */
+
+        }
+
+        header h1 {
+            font-family: sans-serif;
+            font-size: 8rem;
+            font-weight: 900;
+    background-image: url('./images.jpg'); /* A háttérkép fájlneve */
+    background-clip: text; /* Szabványos tulajdonság */
+    -webkit-background-clip: text; /* WebKit böngészőkhöz */
+    color: transparent; /* A szöveg színének átlátszóvá tétele */
+    -webkit-text-fill-color: transparent; /* WebKit böngészőkhöz */
+    background-size: cover;
+    font-size: 100px;
+    font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Természet</h1>
+    </header>
+</body>
+
+</html>

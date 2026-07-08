@@ -1,0 +1,74 @@
+[
+ {
+   "megnevezes": "Batman",
+   "kepfajl": "batman.png",
+   "megjelenes_datuma": 1939,
+   "kiado": "DC Comics",
+   "megalkoto": "Bob Kane és Bill Finger",
+   "tortenet": "Bruce Wayne, milliárdos, aki szülei halála után álarcos igazságosztóvá válik."
+ },
+ {
+   "megnevezes": "Spiderman",
+   "kepfajl": "spiderman.png",
+   "megjelenes_datuma": 1962,
+   "kiado": "Marvel Comics",
+   "megalkoto": "Stan Lee és Steve Ditko",
+   "tortenet": "Peter Parker, akit egy radioaktív pók megcsíp és szupererőkre tesz szert."
+ },
+ {
+   "megnevezes": "Iron Man",
+   "kepfajl": "iron-man.png",
+   "megjelenes_datuma": 1963,
+   "kiado": "Marvel Comics",
+   "megalkoto": "Stan Lee, Larry Lieber, Don Heck és Jack Kirby",
+   "tortenet": "Tony Stark, milliárdos feltaláló, aki páncélruhát épít, hogy megmentse magát."
+ },
+ {
+   "megnevezes": "Superman",
+   "kepfajl": "Superman.png",
+   "megjelenes_datuma": 1938,
+   "kiado": "DC Comics",
+   "megalkoto": "Jerry Siegel és Joe Shuster",
+   "tortenet": "Kryptonról származó Kal-El a Földön él Clark Kentként, emberiség védelmezőjeként használja szupererejét."
+ },
+ {
+   "megnevezes": "Captain America",
+   "kepfajl": "Captain_america.png",
+   "megjelenes_datuma": 1940,
+   "kiado": "Timely Comics",
+   "megalkoto": "Joe Simon és Jack Kirby",
+   "tortenet": "Steve Rogers, aki szuperkatonává válik a második világháború alatt."
+ },
+ {
+   "megnevezes": "Wolverine",
+   "kepfajl": "Wolverine.png",
+   "megjelenes_datuma": 1974,
+   "kiado": "Marvel Comics",
+   "megalkoto": "Len Wein, John Romita Sr. és Herb Trimpe",
+   "tortenet": "Logan, egy különös képességekkel rendelkező mutáns, amnéziás, és a múltját kutatja."
+ },
+ {
+   "megnevezes": "Hulk",
+   "kepfajl": "hulk.png",
+   "megjelenes_datuma": 1962,
+   "kiado": "Marvel Comics",
+   "megalkoto": "Stan Lee és Jack Kirby",
+   "tortenet": "A tudós, Dr. Bruce Banner egy kísérlet során gammasugárzásnak van kitéve, ami miatt veszélyes szörnnyé változik."
+ },
+ {
+   "megnevezes": "Wonderwoman",
+   "kepfajl": "Wonderwoman.png",
+   "megjelenes_datuma": 1941,
+   "kiado": "DC Comics",
+   "megalkoto": "William Moulton Marston",
+   "tortenet": "Diana, az amazon hercegnő a mitológiai Themyscira szigetén él, majd a világba indul, hogy harcoljon a gonosz ellen."
+ },
+ {
+   "megnevezes": "Thor",
+   "kepfajl": "Thor.png",
+   "megjelenes_datuma": 1962,
+   "kiado": "Marvel Comics",
+   "megalkoto": "Stan Lee, Larry Lieber és Jack Kirby",
+   "tortenet": "A skandináv mitológia istene, Thor a Földre kerül, ahol meg kell tanulnia az emberi életet, hogy visszaszerezze a helyét az Asgardban."
+ }
+]

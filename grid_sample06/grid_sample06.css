@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "widget"
+        "footer";
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    gap: 5px;
+    padding: 5px;
+}
+
+.site-header {
+    grid-area: header;
+    background: #4da6ff;
+    padding: 20px;
+}
+
+.site-main {
+    grid-area: main;
+    background: #66cc66;
+    padding: 20px;
+}
+
+.widget-area {
+    grid-area: widget;
+    background: #cc66cc;
+    padding: 20px;
+}
+
+.site-footer {
+    grid-area: footer;
+    background: #0066cc;
+    padding: 20px;
+    color: white;
+}
+.site-header, .site-main, .widget-area, .site-footer {
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* --- Tablet nézet --- */
+@media (min-width: 600px) {
+    .container {
+        grid-template-areas:
+            "header main"
+            "header widget"
+            "header footer";
+        grid-template-columns: minmax(200px, 300px) auto;
+        grid-template-rows: auto minmax(200px, 300px) 100px;
+    }
+}
+
+/* --- Desktop nézet --- */
+@media (min-width: 900px) {
+    .container {
+        grid-template-areas:
+            "header main widget"
+            "header   footer   widget";
+        grid-template-columns: minmax(200px, 300px) 1fr minmax(200px, 300px);
+        grid-template-rows: auto 100px;
+    }
+}

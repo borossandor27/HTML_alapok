@@ -1,0 +1,30 @@
+/* orarend.css */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.orarend {
+  display: grid;
+  grid-template-columns: 100px repeat(5, 1fr);
+  gap: 5px;
+}
+
+.orarend > div {
+  background-color: #dfe6e9;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b2bec3;
+  font-weight: bold;
+}
+
+.idopont {
+  background-color: #74b9ff;
+  color: white;
+}
